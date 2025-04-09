@@ -62,29 +62,29 @@ const CardSection: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4 text-gradient">
-            Stunning Features
+            Key Features
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Explore the cutting-edge features that make this design stand out from the crowd.
+            Discover the powerful tools that make cannabis journaling effortless and insightful.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <Card
-            title="Fluid Animations"
-            description="Experience smooth, physics-based animations that respond naturally to user interactions."
+            title="Strain Library"
+            description="Access a comprehensive database of strains with detailed information on effects, flavors, and potency."
             icon={<Sparkles className="text-white" />}
             delay={100}
           />
           <Card
-            title="Responsive Design"
-            description="Enjoy a seamless experience across all devices, from mobile phones to large desktop screens."
+            title="Consumption Tracking"
+            description="Record your sessions with details on method, dosage, time, and perceived effects across all your devices."
             icon={<Layout className="text-white" />}
             delay={300}
           />
           <Card
-            title="Modern Development"
-            description="Built with the latest web technologies to ensure top performance and maintainability."
+            title="Personalized Insights"
+            description="Gain valuable insights about your preferences and patterns through detailed analytics and reports."
             icon={<Code className="text-white" />}
             delay={500}
           />

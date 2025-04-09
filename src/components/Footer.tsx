@@ -10,10 +10,10 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-bold mb-4">Visual Delight</h3>
+            <h3 className="text-2xl font-bold mb-4">Cannabis Journal</h3>
             <p className="text-gray-400 max-w-md">
-              Experience the pinnacle of modern web design with fluid animations,
-              stunning visuals, and interactive elements.
+              Track your cannabis experiences with our intuitive journal.
+              Record strains, effects, and discover your perfect match.
             </p>
             <div className="flex gap-4 mt-6">
               <a href="#" className="glass p-3 rounded-full hover:bg-white/10 transition-colors">
@@ -50,13 +50,13 @@ const Footer: React.FC = () => {
             <h4 className="font-bold mb-4">Resources</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">Documentation</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">Strain Guide</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">Tutorials</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">Usage Tips</a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">Support</a>
+                <a href="#" className="text-gray-400 hover:text-white transition-colors">Help Center</a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">© 2025 Visual Delight. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Cannabis Journal. All rights reserved.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">Terms</a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy</a>

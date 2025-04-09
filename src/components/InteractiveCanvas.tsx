@@ -131,11 +131,11 @@ const InteractiveCanvas: React.FC = () => {
       <div className="absolute inset-0 flex items-center justify-center z-10">
         <div className="text-center px-4">
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-gradient animate-fade-in">
-            Interactive Experience
+            Dynamic Tracking
           </h2>
           <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Move your mouse across the canvas to interact with the particles.
-            Watch as they react to your movements, creating a unique visual experience.
+            Track your consumption patterns with our interactive visualization. 
+            Watch as your journal entries transform into personalized insights.
           </p>
         </div>
       </div>

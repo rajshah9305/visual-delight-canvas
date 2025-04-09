@@ -47,18 +47,18 @@ const Hero: React.FC = () => {
       <div className="container px-4 mx-auto relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h1 className="text-5xl md:text-7xl font-bold animate-fade-in">
-            <span className="text-gradient">Visual Delight</span>
+            <span className="text-gradient">Cannabis Journal</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-            Experience the pinnacle of modern web design with fluid animations,
-            stunning visuals, and interactive elements.
+            Track your cannabis experiences with our intuitive journal.
+            Record strains, effects, and discover your perfect match.
           </p>
           <div className="flex justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <button 
               onClick={scrollToContent}
               className="glass px-8 py-3 rounded-full text-white font-medium flex items-center gap-2 hover:bg-white/10 transition-all"
             >
-              Explore
+              Start Tracking
               <ArrowDown size={16} />
             </button>
           </div>

@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from "react";
 
 const FeatureSection: React.FC = () => {
@@ -33,12 +32,11 @@ const FeatureSection: React.FC = () => {
       <div className="container mx-auto relative z-10">
         <div className="max-w-3xl mx-auto text-center space-y-8">
           <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-gradient animate-fade-in">
-            Scroll-Driven Effects
+            Experience Journal
           </h2>
           
           <p className="text-xl text-gray-300">
-            Watch as elements transform based on your scroll position.
-            This creates a dynamic, engaging experience that responds to your interactions.
+            Document your unique journey with cannabis. Track effects, feelings, and find what works best for your needs.
           </p>
 
           <div className="glass py-8 px-6 rounded-xl mt-12">
@@ -51,23 +49,22 @@ const FeatureSection: React.FC = () => {
                 </div>
               </div>
               <div className="w-full md:w-1/2 text-left">
-                <h3 className="text-2xl font-bold mb-4">Depth & Dimension</h3>
+                <h3 className="text-2xl font-bold mb-4">Detailed Logging</h3>
                 <p className="text-gray-300">
-                  Carefully crafted visual elements create a sense of depth and dimension, 
-                  making the interface feel tangible and immersive.
+                  Capture every aspect of your experience from strain types to specific effects, helping you make informed choices.
                 </p>
                 <ul className="mt-4 space-y-2">
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-purple-500"></span>
-                    <span className="text-gray-300">Dynamic lighting effects</span>
+                    <span className="text-gray-300">Mood and effect tracking</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-purple-500"></span>
-                    <span className="text-gray-300">Layered components</span>
+                    <span className="text-gray-300">Consumption method logging</span>
                   </li>
                   <li className="flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full bg-purple-500"></span>
-                    <span className="text-gray-300">Subtle shadows and highlights</span>
+                    <span className="text-gray-300">Personal notes and ratings</span>
                   </li>
                 </ul>
               </div>
